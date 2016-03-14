@@ -1,0 +1,13 @@
+{
+  "name": "cataphract-bamboo_artifact",
+  "version": "0.1.0",
+  "author": "cataphract",
+  "summary": "Manages artifacts downloaded from Bamboo.",
+  "license": "Apache-2.0",
+  "source": "https://github.com/cataphract/puppet-bamboo_artifact",
+  "project_page": "https://github.com/cataphract/puppet-bamboo_artifact",
+  "issues_url": "https://github.com/cataphract/puppet-bamboo_artifact/issues",
+  "dependencies": [ ],
+  "data_provider": null
+}
+
