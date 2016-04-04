@@ -126,7 +126,7 @@ Puppet::Type.type(:bamboo_artifact).provide(:bamboo_artifact_provider) do
   def current_meta
     unless @current_meta
       begin
-        @current_meta = YAML.load(IO.read(resource.meta_file))
+        @current_meta = YAML.load(IO.read(resource.meta_file)) || {}
       rescue SystemCallError => e
         @current_meta = {}
         Puppet.debug("Meta-file loading error; possibly doesn't exist yet: #{e}")
